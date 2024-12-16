@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.d1{
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+}
+.pic{
+    padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.pic:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 60px black;
+}
+.kkc{
+    background-color: red;
+    width: 1200px;
+    margin: auto;
+}
+#text{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+h2{
+    color: red;
+    font-size: 40px;
+    
+}
+.kks{
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    
+}
